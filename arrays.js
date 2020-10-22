@@ -4,7 +4,7 @@ var element = 'twix'
 
 
 function addElementToBeginningOfArray (array, element) {
- array = ['element', ...array]
+ array = [element, ...array]
    return array
 }
 
