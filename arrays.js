@@ -2,6 +2,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 var array = chocolateBars
 var element = 'twix'
 
+
 function addElementToBeginningOfArray (array, element) {
  array = [element, ...array]
    return array
@@ -22,6 +23,6 @@ function destructivelyAddElementToEndOfArray (array, element) {
    return array
 }
 
-function accessElementInArray (array) {
-  return(array[0])
+function accessElementInArray (array, index) {
+  return(array[index])
 }
